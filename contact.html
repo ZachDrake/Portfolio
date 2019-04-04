@@ -11,28 +11,32 @@
 
 <body>
     <header>
-        <h1 id="brand">Zach Drake</h1>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div id="header-container">
+                <h1 id="brand">Zach Drake</h1>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
     </header>
 
     <div class="container">
         <div class="content">
             <h2>Contact</h2>
             <hr>
-            <form>
-                <span>Name:</span><br>
-                <input type="text" name="name"><br>
-                <span>Email:</span><br>
-                <input type="text" name="email">
-                <span>Message:</span><br>
-                <input type="text" name="message">
-                <br>
-                <button>Submit</button>
-              </form>
+            <div id="form-frame">
+                <form>
+                    <span>Name:</span><br>
+                    <input type="text" name="name"><br>
+                    <span>Email:</span><br>
+                    <input type="text" name="email"><br>
+                    <span>Message:</span><br>
+                    <textarea id="message" type="text" name="message"></textarea>
+                    <br>
+                    <button>Submit</button>
+                  </form>   
+            </div>
         </div>
     </div>
 
