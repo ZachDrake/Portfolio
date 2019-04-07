@@ -105,6 +105,7 @@ textarea[type=text]:focus {
 .port-img img {
     width: 400px;
     height: 200px;
+    border: 2px solid #ace6ff;
   }
 
 .port-img {
