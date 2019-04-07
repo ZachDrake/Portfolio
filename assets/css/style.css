@@ -97,7 +97,8 @@ textarea[type=text]:focus {
     background-color: #dddddd;
   }
 .port-img img {
-    width: 100%;
+    width: 400px;
+    height: 200px;
   }
 
 .port-img {
